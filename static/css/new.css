@@ -1,0 +1,343 @@
+body {
+  background: #fff5c0;
+}
+
+#p_desc {
+  text-align: justify;
+  text-justify: inter-word;
+  font-size: medium;
+}
+.card-title {
+  /* text-align: justify; */
+  text-justify: inter-word;
+  font-size: large;
+  text-align: justify;
+}
+
+::-webkit-scrollbar-track {
+  border-radius: 20px;
+}
+
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-image: linear-gradient(45deg, #00dbde, #fc00ff);
+  border-radius: 20px;
+}
+/*--------------------------------------------------------------------------- */
+
+.card_hover_white {
+  transition: 0.2s;
+  border: 2px solid #0dcaf0 !important;
+}
+.card_hover_white:hover {
+  transform: scale(0.9999, 0.9999);
+  box-shadow: 0 2px 20px rgb(0 0 0 / 70%);
+}
+
+.card_hover_black {
+  transition: 0.2s;
+  border: 2px solid #0dcaf0 !important;
+}
+.card_hover_black:hover {
+  transform: scale(0.9999, 0.9999);
+  box-shadow: 0 2px 15px rgba(255, 255, 255, 0.2);
+}
+/* ------------------------------------------------------------------------- */
+/* button part */
+button {
+  outline: none !important;
+  border: none;
+  background: transparent;
+}
+
+.navbar-brand {
+  padding-top: 0rem;
+  padding-bottom: 0rem;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+iframe {
+  border: none !important;
+}
+
+/*------------------------------------------------------------------
+[ Button ]*/
+.container-contact100-form-btn {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  /* padding-top: 13px; */
+}
+
+.wrap-contact100-form-btn {
+  width: 100%;
+  display: block;
+  position: relative;
+  z-index: 1;
+  border-radius: 25px;
+  overflow: hidden;
+  margin: 0 auto;
+}
+
+.contact100-form-bgbtn {
+  position: absolute;
+  z-index: -1;
+  width: 300%;
+  height: 100%;
+  background: #a64bf4;
+  background: -webkit-linear-gradient(left, #00dbde, #fc00ff, #00dbde, #fc00ff);
+  background: -o-linear-gradient(left, #00dbde, #fc00ff, #00dbde, #fc00ff);
+  background: -moz-linear-gradient(left, #00dbde, #fc00ff, #00dbde, #fc00ff);
+  background: linear-gradient(left, #00dbde, #fc00ff, #00dbde, #fc00ff);
+  top: 0;
+  left: -100%;
+
+  -webkit-transition: all 0.4s;
+  -o-transition: all 0.4s;
+  -moz-transition: all 0.4s;
+  transition: all 0.4s;
+}
+
+.contact100-form-btn {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 10px;
+  width: 100%;
+  /* height: 50px; */
+
+  font-family: unset;
+  font-size: 16px;
+  color: #fff;
+  line-height: 1.8;
+  font-weight: 350;
+  /* border: 1.5px solid #0dcaf0 !important; */
+  /*border-color: #13849b !important;*/
+  border-radius: 25px;
+}
+
+.wrap-contact100-form-btn:hover .contact100-form-bgbtn {
+  left: 0;
+}
+
+.contact100-form-btn i {
+  -webkit-transition: all 0.4s;
+  -o-transition: all 0.4s;
+  -moz-transition: all 0.4s;
+  transition: all 0.4s;
+}
+.contact100-form-btn:hover i {
+  -webkit-transform: translateX(10px);
+  -moz-transform: translateX(10px);
+  -ms-transform: translateX(10px);
+  -o-transform: translateX(10px);
+  transform: translateX(10px);
+}
+
+/*------------------------------------------------------------------
+  [ Responsive ]*/
+
+@media (max-width: 576px) {
+  .wrap-contact100 {
+    padding: 72px 15px 65px 15px;
+  }
+}
+
+/* button part ends */
+.card {
+  border-radius: 12px;
+  /* box-shadow: 0 2px 20px rgb(0 0 0 / 30%); */
+}
+
+.user {
+  display: flex;
+  margin-top: auto;
+}
+
+#flex_beta {
+  margin-left: auto;
+}
+
+.user img {
+  /* border-radius: 50%; */
+  object-fit: cover !important;
+  height: 40px !important;
+  width: 40px;
+
+  border-radius: 50%;
+  /* width: 40px;
+  height: 40px; */
+  margin-right: 10px;
+  border: 2px solid #0dcaf0 !important;
+}
+.user-info h5 {
+  margin: 0;
+}
+.user-info small {
+  color: #343538;
+}
+
+.card-img-top {
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  object-fit: cover !important;
+  height: 190px !important;
+  width: 100%;
+}
+
+.translate-middle {
+  transform: translate(-117%, -50%) !important;
+}
+
+.user-info h6 {
+  margin-bottom: -0.2rem;
+  font-size: 1rem;
+}
+
+.pill_red {
+  display: flex;
+  justify-content: flex-end;
+  position: absolute;
+  right: 0;
+  transform: translate(0%, -50%);
+  margin-right: 1em;
+}
+
+/* --------------------------------------- */
+.chotu {
+  font-size: 2rem;
+  font-weight: 300;
+}
+
+.chiku {
+  border-radius: 50%;
+  width: 7px !important;
+  height: 7px !important;
+  /* background-color: #404040; */
+}
+
+@media (max-width: 990px) {
+  .chiku {
+    border-radius: 50%;
+    width: 5px !important;
+    height: 5px !important;
+    /* background-color: #404040; */
+  }
+  .chotu {
+    font-size: 0.9rem;
+    font-weight: 400;
+  }
+
+  .lol {
+    margin-bottom: 0rem !important;
+  }
+
+  .mtop {
+    margin-top: 2.8rem !important;
+  }
+
+  .carousel-control-prev-icon,
+  .carousel-control-next-icon {
+    width: 1rem !important;
+    height: 1rem !important;
+  }
+}
+/* .mtop {
+  margin-top: 4.75rem !important;
+} */
+
+.mar_top {
+  margin-top: auto;
+}
+
+/* .lol {
+    display: none!important;
+} */
+
+/* .chiku {
+  border-radius: 50%;
+  width: 10px!important;
+  height: 10px!important;
+  background-color: #404040;
+} */
+
+/* .carousel-control-prev-icon,
+.carousel-control-next-icon {
+  width: 2rem!important;
+  height: 2rem!important;
+
+} */
+
+#imageidi {
+  object-fit: cover;
+  height: 510px;
+  width: 100%;
+}
+
+/* stiky nay */
+.navbar {
+  /* position: fixed; */
+  /* width: 100%; */
+  /* z-index: 2; */
+  /* padding: 25px 0; */
+  transition: all 0.2s ease;
+}
+
+.stick_nav {
+  background: #ffffff;
+  /* padding: 10px 0; */
+  box-shadow: 0px 3px 15px 0px rgba(255, 255, 255, 0.3);
+  padding-top: 0rem;
+  padding-bottom: 0rem;
+  opacity: 0.9 !important;
+}
+
+#nav_img {
+  height: 35;
+  width: 35;
+}
+
+@media (max-width: 991px) {
+  .love {
+    background: #1b1b1b;
+    /* opacity: 0.9 !important; */
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+  }
+}
+
+/* ------------------ */
+
+.pill_light {
+  background-color: #ff828e !important;
+}
+
+/* -------------- */
+
+.about_card {
+  border-radius: 0px;
+}
+
+.about_mt {
+  margin-top: 6rem;
+}
+
+/* --------------- */
+.row_drop {
+  --bs-gutter-x: 0rem;
+}
